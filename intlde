@@ -1,0 +1,32 @@
+partial alphanumeric_keys
+xkb_symbols "intlde" {
+
+    include "us(basic)"
+    name[Group1]= "English (US, intl., German Umlaut)";
+
+    key <TLDE> { [	grave,	asciitilde,	acute,		bar		] }; // ` ~ ´ |
+    key <AE01> { [	1,	exclam,		onesuperior,	notsign		] }; // 1 ! ¹ ¬
+    key <AE02> { [	2,	at,		twosuperior,	therefore	] }; // 2 @ ² ∴
+    key <AE03> { [	3,	numbersign,	threesuperior,	sterling	] }; // 3 # ³ £
+    key <AE04> { [	4,	dollar,		foursuperior,	EuroSign	] }; // 4 $ ⁴ €
+    key <AE05> { [	5,	percent,	fivesuperior,	U2030		] }; // 5 % ⁵ ‰
+    key <AE06> { [	6,	asciicircum,	sixsuperior,	squareroot	] }; // 6 ^ ⁶ √
+    key <AE07> { [	7,	ampersand,	sevensuperior,	section		] }; // 7 & ⁷ §
+    key <AE08> { [	8,	asterisk,	eightsuperior,	infinity	] }; // 8 * ⁸ ∞
+    key <AE09> { [	9,	parenleft,	ninesuperior,	periodcentered	] }; // 9 ( ⁹ ·
+    key <AE10> { [	0,	parenright,	zerosuperior,	degree		] }; // 0 ) ⁰ °
+    key <AE11> { [	minus,	underscore,	notequal,	plusminus	] }; // - _ ≠ ±
+    key <AE12> { [	equal,	plus,		multiply,	division	] }; // = + × ÷
+
+    key <AD01> { [	q,		Q,		at				] };
+    key <AC01> { [	a,		A,		adiaeresis,	Adiaeresis	] };
+    key <AD07> { [	u,		U,		udiaeresis,	Udiaeresis	] };
+    key <AD09> { [	o,		O,		odiaeresis,	Odiaeresis	] };
+    key <AC02> { [	s,		S,		ssharp,		section		] };
+    key <AD06> { [	z,		Z,		leftarrow,	yen		] };
+    key <AB01> { [	y,		Y,		guillemotright,	U203A		] };
+    key <LSGT> { [	parenleft,	parenright,	bar				] };
+
+    include "eurosign(e)"
+    include "level3(ralt_switch)"
+};
