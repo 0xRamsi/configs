@@ -6,7 +6,7 @@ xkb_symbols "intlde" {
 
     key <TLDE> { [	grave,	asciitilde,	asciicircum	] };
     key <AE01> { [	1,	exclam,		onesuperior,	exclamdown	] };
-    key <AE02> { [	2,	at,		twosuperior,	doubleacute	] };
+    key <AE02> { [	2,	quotedbl,		twosuperior,	doubleacute	] };
     key <AE03> { [	3,	numbersign,	threesuperior,	dead_macron	] };
     key <AE04> { [	4,	dollar,		foursuperior,	sterling	] };
     key <AE05> { [	5,	percent,	fivesuperior,	dead_cedilla	] };
