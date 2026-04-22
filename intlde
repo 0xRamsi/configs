@@ -4,7 +4,7 @@ xkb_symbols "intlde" {
     include "us(intl)"
     name[Group1]= "English (US, intl., German Umlaut)";
 
-    key <TLDE> { [	grave,	asciitilde,	asciicircum	] };
+    key <TLDE> { [	grave,	acute,		asciicircum,	degree	] };
     key <AE01> { [	1,	exclam,		onesuperior,	exclamdown	] };
     key <AE02> { [	2,	quotedbl,		twosuperior,	doubleacute	] };
     key <AE03> { [	3,	numbersign,	threesuperior,	dead_macron	] };
@@ -15,9 +15,8 @@ xkb_symbols "intlde" {
     key <AE08> { [	8,	asterisk,	eightsuperior,	dead_ogonek	] };
     key <AE09> { [	9,	parenleft,	ninesuperior,	dead_breve	] };
     key <AE10> { [	0,	parenright,	zerosuperior,	dead_abovering	] };
-    key <AE11> { [	0,	parenright,	zerosuperior,	dead_abovering	] };
-    key <AE11> { [	slash,	question,	backslash,	dead_belowdot	] };
-    key <AE12> { [	equal,	plus,		multiply,	division	] };
+    key <AE11> { [	equal,	question,	backslash,	acute	] };
+    key <AE12> { [	slash,	plus,		backslash,	grave	] };
     key <AD01> { [	q,	Q,	at,	asciitilde	] };
     key <AD06> { [	z,	Z	] };
     key <AD07> { [	u,	U,	udiaeresis,	Udiaeresis	] };
